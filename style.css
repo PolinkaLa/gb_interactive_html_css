@@ -32,7 +32,6 @@ h3 {
 }
 .list-char {
     color: mediumslateblue;
-    text-decoration: underline;
     list-style-image: url(http://www.inavto.ru/upload/medialibrary/684/68422c0b51f6a12da65db15ada945e6c.png);
     margin-left: 20px;
 }
@@ -41,6 +40,16 @@ input[type="email"] {
     width: 200px;
     height: 20px;
 }
+input[type="email"]:focus {
+    color: mediumvioletred;
+    background: lightblue;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    text-transform: capitalize;
+}
 .color-input{
     color: darkslategray;
     font-size: 16px;
@@ -48,19 +57,40 @@ input[type="email"] {
 }
 
 .hand-border {
-    padding: 10px;
-    background: #eaeaea;
+    outline: 1px solid lightslategrey;
+}
+.hand-border:hover {
+    outline: none
 }
 
 .catalog{
-    list-style-type: none;
-}
-.catalog p {
     text-align: center;
 }
-.catalog li{
+.catalog .catalog-item{
     border: 1px solid lightslategrey;
     width: 100px;
     padding: 10px;
     margin-bottom: 10px;
+}
+.catalog .catalog-item a{
+    text-decoration: none;
+}
+.menu li a:hover {
+    color:red
+}
+.menu li a:active {
+    color:blue
+}
+.goods p::first-letter{
+    font-family: monospace;
+    font-size: 30px;
+}
+table,
+td{
+    border: 1px solid lightgrey;
+    border-spacing: 0;
+    text-align: center;
+}
+table tr:first-child{
+    height: 50px;
 }
