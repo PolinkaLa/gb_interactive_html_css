@@ -1,0 +1,66 @@
+body {
+    background: #f8f8f8;
+}
+
+.menu {
+    list-style-type: none
+}
+.menu a {
+    text-decoration: none;
+    font-size: 16px;
+    font-style: italic;
+    color: forestgreen;
+}
+h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;    
+}
+.short {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.long {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.list-char {
+    color: mediumslateblue;
+    text-decoration: underline;
+    list-style-image: url(http://www.inavto.ru/upload/medialibrary/684/68422c0b51f6a12da65db15ada945e6c.png);
+    margin-left: 20px;
+}
+input[type="text"],
+input[type="email"] {
+    width: 200px;
+    height: 20px;
+}
+.color-input{
+    color: darkslategray;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.hand-border {
+    padding: 10px;
+    background: #eaeaea;
+}
+
+.catalog{
+    list-style-type: none;
+}
+.catalog p {
+    text-align: center;
+}
+.catalog li{
+    border: 1px solid lightslategrey;
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
